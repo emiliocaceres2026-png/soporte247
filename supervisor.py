@@ -2,8 +2,8 @@ import os
 import time
 import requests
 
-# Lee el secreto POLLO_PAT configurado en GitHub Actions
-GITHUB_TOKEN = os.getenv("POLLO_PAT")
+# Lee el secreto POP_TOKEN configurado en GitHub Actions
+GITHUB_TOKEN = os.getenv("POP_TOKEN")
 HEADERS = {
     "Authorization": f"Bearer {GITHUB_TOKEN}",
     "Accept": "application/vnd.github.v3+json",
