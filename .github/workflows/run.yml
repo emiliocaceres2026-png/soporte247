@@ -22,5 +22,5 @@ jobs:
 
       - name: Ejecutar Supervisor
         env:
-          POLLO_PAT: ${{ secrets.POLLO_PAT }}
+          POP_TOKEN: ${{ secrets.POP_TOKEN }}
         run: python supervisor.py
