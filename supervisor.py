@@ -17,7 +17,6 @@ REPOS = [
     "PLAY3",
     "PLAY4",
     "PLAY5",
-    "PLAY6",
     "PLAY10"
 ]
 WORKFLOW_FILE = "run.yml"
