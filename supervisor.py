@@ -12,7 +12,9 @@ OWNER = "emiliocaceres2026-png"
 
 # Lista de tus repositorios configurados
 REPOS = [
-    "PLAY2"
+    "PLAY1",
+    "PLAY2",
+    "PLAY3"
 ]
 WORKFLOW_FILE = "run.yml"
 
